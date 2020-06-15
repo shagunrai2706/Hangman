@@ -11,15 +11,15 @@ secret_word = ""
 
 #welcome page 
 name = input("Enter your name : ")
-print("Welcome {} to the game!".format(name))
-time.sleep(1)
-print("This is a word guessing game")
-time.sleep(1)
+print(f"Welcome {name} to the game!")
+
+print("\nThis is a word guessing game")
+
 print("You are allowed to guess only one alphabet at a time")
-time.sleep(1)
+
 print("lets begin")
-time.sleep(1)
-category =input("Please select the category(Fruits/Colors) :")
+
+category =input("Please select the category:\n1. Fruits\n2. Colours")
 if category == 'Fruits':
     secret_word = random.choice(Fruits)
 elif category == 'Colors':
