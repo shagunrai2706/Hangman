@@ -1,7 +1,7 @@
 import random,time
 
-Fruits = ['aple','ban','grapes']
-Colors = ['blue','gren','red']
+Fruits = ['apple','banana','grapes']
+Colors = ['blue','green','red']
 
 category = ""
 secret_word_list = []
